@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-node-dash",
-  "description": "Full node with extended capabilities using Bitcore and Dash Core",
+  "name": "bitcore-node-rapture",
+  "description": "Full node with extended capabilities using Bitcore and RAPTURE Core",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.0.4",
   "main": "./index.js",
@@ -27,7 +27,7 @@
     }
   ],
   "bin": {
-    "bitcore-node-dash": "./bin/bitcore-node-dash"
+    "bitcore-node-rapture": "./bin/bitcore-node-rapture"
   },
   "scripts": {
     "preinstall": "./scripts/download",
@@ -39,13 +39,13 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "dash",
-    "dashd"
+    "rapture",
+    "raptured"
   ],
   "dependencies": {
     "async": "^1.3.0",
-    "bitcoind-rpc-dash": "^0.7.1",
-    "bitcore-lib-dash": "^0.13.20",
+    "bitcoind-rpc-rapture": "^0.7.1",
+    "bitcore-lib-rapture": "^0.13.20",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -67,7 +67,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "bitcore-p2p-dash": "^1.1.2",
+    "bitcore-p2p-rapture": "^1.1.2",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
