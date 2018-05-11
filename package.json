@@ -11,10 +11,19 @@
   },
   "contributors": [
     {
-      "name": "RaptureCoreDev"
+      "name": "Christopher Jeffrey"
     },
     {
-      "name": "tom_ua",
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Chris Kleeschulte",
+      "email": "chrisk@bitpay.com"
+    },
+    {
+      "name": "Patrick Nagurny",
+      "email": "patrick@bitpay.com"
     }
   ],
   "bin": {
