@@ -4,27 +4,18 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.0.4",
   "main": "./index.js",
-  "repository": "git://github.com/dashpay/bitcore-node-dash.git",
-  "homepage": "https://github.com/dashpay/bitcore-node-dash",
+  "repository": "git://github.com/RaptureCore/bitcore-node-rapture.git",
+  "homepage": "https://github.com/RaptureCore/bitcore-node-rapture",
   "bugs": {
-    "url": "https://github.com/dashpay/bitcore-node-dash/issues"
+    "url": "https://github.com/RaptureCore/bitcore-node-rapture/issues"
   },
   "contributors": [
     {
-      "name": "Christopher Jeffrey"
+      "name": "RaptureCoreDev"
     },
     {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
+      "name": "tom_ua",
     },
-    {
-      "name": "Chris Kleeschulte",
-      "email": "chrisk@bitpay.com"
-    },
-    {
-      "name": "Patrick Nagurny",
-      "email": "patrick@bitpay.com"
-    }
   ],
   "bin": {
     "bitcore-node-rapture": "./bin/bitcore-node-rapture"
