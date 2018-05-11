@@ -15,7 +15,7 @@
     },
     {
       "name": "tom_ua",
-    },
+    }
   ],
   "bin": {
     "bitcore-node-rapture": "./bin/bitcore-node-rapture"
