@@ -36,7 +36,7 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc-rapture": "^0.7.1",
-    "bitcore-lib-rapture": "^0.13.20",
+    "bitcore-lib-rapture": "^0.15.3",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
